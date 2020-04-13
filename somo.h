@@ -1,9 +1,9 @@
 #ifndef _SOMO_H
 #define _SOMO_H
 //  somo.h
-//  ×÷Õß:Billy2007
-//  ÓÊ¼ş:1920365539@qq.com
-//  Bug:ÔÚnumberÖĞµÄ/=Óë%=¶¼²»ÄÜÓÃ¡£
+//  ä½œè€…:Billy2007
+//  é‚®ä»¶:1920365539@qq.com
+//  Bug:åœ¨numberä¸­çš„/=ä¸%=éƒ½ä¸èƒ½ç”¨ã€‚
 //#pragma GCC optimize(2)
 //#pragma GCC optimize(3)
 //#pragma GCC optimize("Ofast")
@@ -146,7 +146,7 @@
 #define ms(a,b) memset(a,b,sizeof(a))
 #define sz(a) sizeof(a)
 const int rw[]={-1,0,1,0,-1,1,-1,1},cl[]={0,1,0,-1,-1,1,1,-1};
-const ull N=1001,inf=0x7f7f7f7f,daynum[]={114514,31,28,31,30,31,30,31,31,30,31,30,31};
+const ull N=1001,inf=0x3f3f3f3f,daynum[]={114514,31,28,31,30,31,30,31,31,30,31,30,31};
 const db E=2.718281828459,pi=acos(-1.0),eps=0.0000000001; 
 using namespace std;
 struct number{
